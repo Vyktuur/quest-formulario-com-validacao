@@ -1,0 +1,146 @@
+.container {
+    background-image: url(../images/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: 62px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto .titulo {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 34px;
+    color: #fff;
+}
+
+.texto .massa-de-texto {
+    width: 450px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+
+.formulario {
+    width: auto;
+    height: auto;
+    margin-left: 70px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario .campos {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.formulario .campos .campo {
+    box-sizing: border-box;
+    width: 300px;
+    height: 35px;
+    background: #FFFFFF;
+    margin: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.formulario .campos .campo::placeholder {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    color: #A8A8A8;
+}
+
+.formulario .campos .msg {
+    width: 300px;
+    height: 100px;
+}
+
+.formulario .campos .obrigatorio {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.btn-enviar {
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    background: #3CCC87;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.btn-enviar:hover {
+    background: #27ae60;
+}
+
+.btn-enviar:active {
+    background: #27ae60;
+    top: 2px;
+}
+
+.nao-valido {
+    border: 2px solid #F52E2E;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 35px;
+    background: #FFFFFF;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.formulario .campos .nao-valido::placeholder {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    color: #A8A8A8;
+}
+
+.valido {
+    border: 2px solid #00C22B;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 35px;
+    background: #FFFFFF;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.formulario .campos valido::placeholder {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    color: #A8A8A8;
+}
+
+.campos .erro {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 9px;
+    color: #F52E2E;
+    display: none;
+}
+
+.campos .ativo {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 9px;
+    color: #F52E2E;
+
+}
